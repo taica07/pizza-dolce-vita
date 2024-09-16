@@ -1,3 +1,14 @@
+body {
+  background-image: linear-gradient(
+    to bottom,
+    #ffe36d,
+    #fbe86c,
+    #f6ec6c,
+    #f0f16d,
+    #eaf66e
+  );
+}
+
 /*** Spinner Start ***/
 #spinner {
   opacity: 0;
