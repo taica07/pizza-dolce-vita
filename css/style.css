@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+Grund:wght@100..400&display=swap');
+
 body {
   background-image: linear-gradient(
-    to bottom,
-    #ffde52,
-    #fae560,
-    #f5eb6e,
-    #f1f17d,
-    #eef78b
+    to right top,
+    #ffffff,
+    #f3f8fd,
+    #e2f3f5,
+    #d9eee3,
+    #dee4cd
   );
 }
 
@@ -492,4 +494,37 @@ h6,
 
 .vinos-nacionales h4 {
   font-size: 1rem;
+}
+
+p {
+  color: green;
+}
+
+.glowing-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: red; /* Background color of the div */
+  box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.7);
+  animation: glow 1s infinite alternate;
+
+  font-family: 'Playwrite DE Grund', cursive;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+@keyframes glow {
+  0% {
+    background-color: red;
+  }
+
+  100% {
+    background-color: blue;
+  }
+}
+
+.glowing-div p {
+  color: white;
 }
