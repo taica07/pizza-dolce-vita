@@ -528,3 +528,52 @@ p {
 .glowing-div p {
   color: white;
 }
+
+/* Ofertas */
+
+.glowing-text {
+  font-size: 3rem;
+  color: orange;
+  animation: bloom 1.5s infinite alternate;
+}
+
+@keyframes bloom {
+  0% {
+    text-shadow: 0 0 10px orange, 0 0 20px orange, 0 0 30px orange;
+  }
+  100% {
+    text-shadow: 0 0 20px orange, 0 0 30px orange, 0 0 40px orange,
+      0 0 50px orange;
+  }
+}
+
+/* plus-sign */
+.plus-sign {
+  font-size: 2rem;
+  color: red;
+}
+
+/* ofertas */
+#ofertas {
+  border-radius: 40px;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.glowing-apel {
+  font-size: 1.2rem;
+  color: red;
+  animation: phone-apel 1.5s infinite alternate;
+}
+
+@keyframes phone-apel {
+  0% {
+    text-shadow: 0 0 10px orange, 0 0 20px orange, 0 0 30px orange;
+  }
+  100% {
+    text-shadow: 0 0 20px orange, 0 0 30px orange, 0 0 40px orange,
+      0 0 50px orange;
+  }
+}
